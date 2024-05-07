@@ -2,3 +2,17 @@ html {
   height: 100%;
   width: 100%;
 }
+
+body {
+  background-image: linear-gradient(to bottom, #ffffff, #a8ffff);
+ }
+
+h1 {
+  background-image: linear-gradient(to top right, #00ffff, #000000);
+  color: transparent;
+ -webkit-background-clip: text;
+  background-clip: text;
+ text-shadow: 0 0 2px rgb(0, 0,0, 0.5);
+    } 
+
+	
