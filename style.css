@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
 html {
   height: 100%;
   width: 100%;
@@ -5,14 +7,31 @@ html {
 
 body {
   background-image: linear-gradient(to bottom, #ffffff, #a8ffff);
- }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 20px;
+    /* Adjust font size for smaller screens */
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 20px;
+    /* Adjust font size for larger screens */
+  }
+}
+
 
 h1 {
   background-image: linear-gradient(to top right, #00ffff, #000000);
   color: transparent;
- -webkit-background-clip: text;
+  -webkit-background-clip: text;
   background-clip: text;
- text-shadow: 0 0 2px rgb(0, 0,0, 0.5);
-    } 
-
-	
+  text-shadow: 0 0 2px rgb(0, 0, 0, 0.5);
+  font-family: 'courier new', monospace;
+  font-size: 30px;
+  padding-left: 0px;
+  word-wrap: break-word;
+}
